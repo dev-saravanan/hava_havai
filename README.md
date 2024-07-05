@@ -53,7 +53,7 @@ This project is a Node.js backend service designed to manage and query informati
    The API provides a GET route that accepts the `iata_code` parameter. Use this endpoint to query the database for airport details, including related city and country data.
 
    ```http
-   GET /api/airports/:iataCode
+   GET /api/airport/:iataCode
    ```
 
 ## Notes
